@@ -19,7 +19,7 @@ import {
 } from "../components/home/HomeElements";
 import styles from "../components/home/HomeComponent.module.css";
 
-import Video1 from "../static/video/network.mp4";
+import Video1 from "../static/video/blue.mp4";
 
 import Image1 from "../static/images/bg1.jpg";
 import Image2 from "../static/images/bg2.jpg";
@@ -52,34 +52,6 @@ const Home = () => {
           <CardComponent />
         </CardCarousel>
       </VideoContainer>
-      <Container>
-        <div className="{sytles.imageCard">
-          <Image src={Image6} />
-        </div>
-        <Card className={styles.halfCard}>
-          <PhoneHeading>A glance into WEB 3</PhoneHeading>
-          <Paragraph className={styles.p}>
-            This content is displayed on top of the video background. This
-            content is displayed on top of the video background. This content is
-            displayed on top of the video background.
-          </Paragraph>
-          <Button>Learn more</Button>
-        </Card>
-      </Container>
-      <Container>
-        <div className="{sytles.imageCard">
-          <Image src={Image7} />
-        </div>
-        <Card className={styles.halfCard}>
-          <PhoneHeading>The future of AI</PhoneHeading>
-          <Paragraph>
-            This content is displayed on top of the video background. This
-            content is displayed on top of the video background. This content is
-            displayed on top of the video background.
-          </Paragraph>
-          <Button>Learn more</Button>
-        </Card>
-      </Container>
     </Container>
   );
 };
